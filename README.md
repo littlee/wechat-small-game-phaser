@@ -32,7 +32,9 @@ var game = new Phaser.Game({
 })
 ```
 
-### Caveat
+## Caveat
+
+### input pointer
 
 If the game size is not the same as the canvas', you should set scale mode to make Phaser calculate input pointer correctly.
 
@@ -41,3 +43,13 @@ this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL
 this.scale.pageAlignHorizontally = true // optional
 this.scale.pageAlignVertically = true // optional
 ```
+
+### audio play
+
+Due to the environment wechat provide, the Phaser built-in audio API won't work, however, we can use the Audio API from the adapter.
+```js
+let au = new Audio('path/to/audio.mp3');
+au.play();
+au.pause();
+```
+
