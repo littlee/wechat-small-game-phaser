@@ -53,3 +53,10 @@ au.play();
 au.pause();
 ```
 
+### loading JSON file
+
+Loading JSON file with a relative path won't work, you have to put the JSON file on the serve and load it with a URL.
+```js
+this.load.json('version', './a.json'); // ERROR T_T
+this.load.json('version', 'http://phaser.io/version.json'); // WORKS YoY
+```
