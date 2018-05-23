@@ -1,5 +1,9 @@
 # Wechat Small Game with Phaser.js
 
+## Current Using Phaser-CE Build
+
+v2.10.5
+
 ## Main Idea
 
 "Thanks to" the WeChat Small Game runtime environment, directly importing 'phaser' will get lots of errors.

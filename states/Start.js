@@ -18,7 +18,7 @@ class Start extends window.Phaser.State {
   create() {
     this.startBtn = this.add.text(this.world.centerX, this.world.centerY, 'Start Game', {
       font: 'Arial',
-      fill: '#000',
+      fill: '#333',
       fontSize: 64
     })
     this.startBtn.anchor.setTo(0.5)
