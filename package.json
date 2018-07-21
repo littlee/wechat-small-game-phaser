@@ -1,0 +1,19 @@
+{
+  "name": "wechat-small-game-phaser",
+  "version": "1.0.0",
+  "description": "## Current Using Phaser-CE Build",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littlee/wechat-small-game-phaser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/littlee/wechat-small-game-phaser/issues"
+  },
+  "homepage": "https://github.com/littlee/wechat-small-game-phaser#readme"
+}
