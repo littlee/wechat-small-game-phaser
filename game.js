@@ -2,9 +2,7 @@ import './js/libs/weapp-adapter';
 import './js/libs/symbol';
 import './js/libs/stub';
 
-window.PIXI = require('./js/libs/pixi.min');
-window.p2 = require('./js/libs/p2.min');
-window.Phaser = require('./js/libs/phaser-split.min');
+import './js/phaserGlobals';
 
 import StartState from './states/Start.js';
 import GameState from './states/Game.js';

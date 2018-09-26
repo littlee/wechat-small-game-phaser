@@ -1,7 +1,3 @@
-window.PIXI = require('../js/libs/pixi.min');
-window.p2 = require('../js/libs/p2.min');
-window.Phaser = require('../js/libs/phaser-split.min');
-
 class Game extends window.Phaser.State {
   create() {
     this.bg = this.add.tileSprite(
