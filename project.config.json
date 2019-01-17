@@ -9,7 +9,7 @@
 	},
 	"compileType": "game",
 	"libVersion": "2.0.8",
-	"appid": "touristappid",
+	"appid": "wx6ac3f5090a6b99c5",
 	"projectname": "wechat-small-game-phaser",
 	"isGameTourist": true,
 	"condition": {
