@@ -2,7 +2,7 @@
 
 ## Currently Using Phaser-CE Build
 
-v2.11.1
+v2.13.1
 
 ## Main Idea
 
