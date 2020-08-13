@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/littlee/wechat-small-game-phaser/issues"
   },
-  "homepage": "https://github.com/littlee/wechat-small-game-phaser#readme"
+  "homepage": "https://github.com/littlee/wechat-small-game-phaser#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
 }
